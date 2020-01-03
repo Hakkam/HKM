@@ -1,0 +1,72 @@
+.fl-icon-group.textleft {
+    text-align: left;
+}
+
+#mega-menu-menu-header li a {
+    text-align: right !important
+}
+
+#mega-menu-wrap-menu-header a.mega-menu-link:before {
+    float: left !important;
+}
+
+.fl-icon-text {
+    text-align: right !important
+}
+
+.icon-b::before {
+    padding-right: 0;
+    padding-left: .5em
+}
+
+.wholeCons {
+    direction: rtl;
+}
+
+.mix {
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.icon-b::before {
+    padding-right: 0;
+    padding-left: 0 !important;
+}
+
+.logo {
+    text-align: right !important
+}
+
+.fl-icon-text {
+    padding-right: 15px
+}
+
+.fl-node-5d8bfd587d2ff > .fl-col-content {
+    padding-top: 0;
+    padding-left: 80px;
+    padding-right: 0 !important;
+}
+
+#vamtam-megamenu-main-menu-toggle {
+    margin-left: 0 !important
+}
+
+.post-media {
+    padding-right: 0% !important;
+    padding-left: 5% !important
+}
+
+.vamtam-meta-tax {
+    float: right !important;
+    padding-right: 0px !important;
+    padding-left: 20px !important
+}
+
+.post-content-outer.single-post .vamtam-meta-tax {
+    float: none !important;
+}
+
+header.main-header.layout-single-row .second-row:last-child #menus {
+    margin-right: -10px;
+    float: left;
+}

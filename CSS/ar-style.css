@@ -1,0 +1,173 @@
+* {
+    letter-spacing: 0 !important
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    text-align: right
+}
+
+p,
+li {
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.fixed-loader {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    z-index: 3333333
+}
+
+
+/*===========nav===========*/
+.nav {
+    right: 0;
+    left: auto;
+    direction: rtl;
+    text-align: right
+}
+
+/*===========CASES===========*/
+.cases .row {
+    text-align: left
+}
+
+.cases .card-content {
+    height: auto;
+    right: 0;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: right
+}
+
+.cases .card-content h6 {
+    margin: 7px;
+}
+
+.cases .card-content p {
+    text-align: left
+}
+
+.cases .card-content .more {
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+}
+
+.cases .card-content .more:hover {
+    transform: translateY(-50%) translateX(-5px);
+    border: 2px solid #C8A065;
+}
+
+.cases .ope .l-card .card-content {
+    right: auto;
+    left: 0;
+    top: 50%;
+}
+
+/*===========projects===========*/
+.lin ul li:hover {
+    color: #C8A065;
+    opacity: 1;
+}
+
+/*===========contact===========*/
+.contact input,
+.contact textarea {
+    border-bottom: 2px solid #C8A065;
+    text-align: right
+}
+
+
+
+.contact .info {
+    flex-direction: row-reverse;
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .cases img {
+        width: 80% !important;
+        display: block;
+        margin: auto
+    }
+
+    .cases .card-content h6 {
+        margin: 3px;
+    }
+
+    .lin ul li {
+        font-size: 30px;
+    }
+
+    .cases .card-content .more {
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+
+    .cases .card-content .more:hover {
+        transform: translatex(-50%) translatey(-5px);
+        border: 2px solid #C8A065;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 992px) {
+    header .header-content {
+        flex-direction: column-reverse !important
+    }
+
+    .cases .card-content {
+        background-color: #101125;
+        width: 400px;
+        height: 150px;
+        position: absolute;
+        left: 50%;
+        top: 50% !important;
+        transform: translate(-50%);
+        border-radius: 5px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px
+    }
+
+    .cases .ope .l-card .card-content {
+        left: 50%;
+
+    }
+
+
+    .contact .info {
+        flex-direction: column
+    }
+
+    .contact .info > * {
+        margin: 10px 0
+    }
+
+    .lines {
+        display: none !important
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 500px) {
+    .service .col-md-4 {
+        margin: 30px 0 20px
+    }
+}

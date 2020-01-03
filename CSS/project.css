@@ -1,0 +1,91 @@
+/*
+f-color : #F7CBC8
+s-color: #17161C dark
+t-color: #1E1D25 bright
+
+fonts : Lovelo Line
+*/
+
+/*general settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background: #1E1D25;
+    overflow-x: hidden;
+}
+
+.section {
+    padding: 60px
+}
+
+.row {
+    margin: 30px 0
+}
+
+p,
+li {
+    color: #F7F6FB;
+    font-weight: 400
+}
+
+h2 {
+    position: relative;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #F7CBC8
+}
+
+.lines {
+    height: 100vh;
+    margin: auto;
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+    width: calc(100vw - 100px);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.col-md-6 {
+    margin-bottom: 0
+}
+
+.pan {
+    padding: 30px 0;
+    background-color: #17161C;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, .3);
+    position: relative
+}
+
+
+.pan:before,
+.pan:after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #17161C
+}
+
+.pan:before {
+    border-right: 50vw solid transparent;
+    left: 0
+}
+
+.pan:after {
+    border-left: 50vw solid transparent;
+    right: 0
+}
+
+/*===========header===========*/
